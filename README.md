@@ -67,11 +67,11 @@ As primeiras categorias e palavras-chave criadas pelo ChatGPT, por exemplo, fora
       }
 ```
   
-As categorias e palavras-chave criadas foram complementadas em diálogo com o Claude.ai e o ChatGPT, utilizando cada um dos sistemas para criticar e complementar as sugestões do outro. Às sugestões, foram somadas ideias dos próprios pesquisadores;
+As categorias e palavras-chave criadas foram complementadas em diálogo com o Claude.ai e o ChatGPT, utilizando cada um dos sistemas para criticar e complementar as sugestões do outro. O caráter generalista das primeiras sugestões foi superado pelo incentivo à utilização de palavras encontradas nas respostas, em um arquivo CSV anonimizado enviado para as duas IAs. Utilizamos, ainda, exemplos de respostas que estavam ligadas a cada categoria para pedir que as IAs identificassem palavras-chave que poderiam integrar o programa. Às sugestões, foram somadas ideias dos próprios pesquisadores;
 
 4. Criação do programa em Python que trata o texto e identifica as palavras-chave e palavras de negação para categorizar cada uma das respostas;
 5. Simplificação das categorias para autoexclusão e para desenvolvimento teórico;
-6. Leitura e categorização humana de 100 respostas, comparação com os resultados da categorização automática e adaptação do programa conforme os motivos identificados para as diferenças nas categorias. As comparações foram realizadas até que os resultados humanos e do programa fossem semelhantes;
-7. A partir dos resultados do programa, foi possível realizar inferências teóricas e pensar categorias mais amplas, que englobam as primeiras, para melhorar a confiabilidade dos resultados e evitar problemas de redundância.
+6. Leitura e categorização humana de 100 respostas, comparação com os resultados da categorização automática e adaptação do programa conforme os motivos identificados para as diferenças nas categorias. Na maior parte dos casos, a categorização conflitante era causada pela falta de palavras-chave e expressões específicas, que foram acrescentadas ao programa, ou à falha na identificação de negativas, o que exigiu adaptação no programa. As comparações foram realizadas até que os resultados humanos e do programa fossem semelhantes;
+7. A partir dos resultados, foi possível realizar inferências teóricas e pensar categorias mais amplas, que englobam as primeiras, para melhorar a confiabilidade dos resultados e evitar problemas de redundância.
 
 O programa disponível no repositório utiliza categorias e palavras-chave genéricas. O objetivo é que os interessados possam utilizá-lo para analisar seus próprios conjuntos textuais. A categorização e palavras-chave finais utilizadas neste projeto de pesquisa estão disponíveis em artigos científicos e podem ser utilizadas para avaliar o trabalho aqui desenvolvido.
